@@ -1,0 +1,542 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Sound of Freedom Tour
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&amp;family=Roboto+Mono&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: #0a000a;
+      color: #d9d9d9;
+    }
+    .orbitron {
+      font-family: 'Orbitron', sans-serif;
+    }
+    /* Custom scrollbar for FAQ boxes */
+    .scrollbar-thin::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background-color: #555;
+      border-radius: 3px;
+    }
+  </style>
+ </head>
+ <body class="select-none">
+  <!-- Header and nav -->
+  <header class="flex justify-between items-center px-4 py-3 max-w-screen-xl mx-auto">
+   <div class="text-white font-extrabold text-lg">
+    SCHAR
+   </div>
+   <nav class="flex space-x-4 text-xs sm:text-sm text-gray-300 font-mono">
+    <a class="font-extrabold text-white" href="#">
+     HOME
+    </a>
+    <a class="hover:text-white" href="#">
+     EVENT
+    </a>
+    <a class="hover:text-white" href="#">
+     MARCHENDISE
+    </a>
+    <a class="hover:text-white" href="#">
+     CONTACT
+    </a>
+   </nav>
+   <div class="flex space-x-4 text-xs sm:text-sm font-mono text-gray-300">
+    <a class="hover:text-white" href="#">
+     LOGIN
+    </a>
+    <a class="hover:text-white" href="#">
+     SIGN UP
+    </a>
+   </div>
+  </header>
+  <!-- Hero section -->
+  <section class="relative max-w-screen-xl mx-auto px-4 pt-6 pb-12 flex flex-col items-center text-center">
+   <div class="absolute inset-0 -z-10 flex justify-center items-center">
+    <img alt="Concert crowd with hands raised and bright stage lights in background" class="w-full h-full object-cover brightness-50" height="600" src="https://storage.googleapis.com/a1aa/image/1c013a10-014d-4cdd-fb59-89d31d2f2cd1.jpg" width="1920"/>
+   </div>
+   <div class="flex w-full max-w-7xl justify-between items-start mb-6">
+    <div class="w-1/3 max-w-[400px]">
+     <img alt="Side view of concert crowd with bright stage lights" class="rounded-md" height="400" src="https://storage.googleapis.com/a1aa/image/c64a1f93-d548-4cbd-9a69-59233f180930.jpg" width="400"/>
+    </div>
+    <div class="w-1/3 flex flex-col items-center">
+     <div class="border border-gray-400 rounded-full px-6 py-1 text-xs tracking-widest mb-2" style="font-family: 'Orbitron', sans-serif;">
+      2025-2026
+     </div>
+     <h1 class="orbitron text-5xl sm:text-7xl font-extrabold leading-[1.1] text-gray-300" style="text-shadow: 0 0 6px #d9d9d9;">
+      SOUND OF
+      <br/>
+      FREEDOM
+     </h1>
+     <p class="tracking-widest text-sm sm:text-base mt-2 mb-8">
+      WORLD TOUR
+     </p>
+     <div class="flex w-full max-w-[600px] justify-between text-[9px] sm:text-xs text-gray-300 font-mono">
+      <div>
+       <p class="font-bold mb-1">
+        CITY OF TOUR
+       </p>
+       <p>
+        20.11 - Madison Square Garden, New York City
+       </p>
+       <p>
+        22.11 - Madison Square Garden, New York City
+       </p>
+       <p>
+        24.11 - Red Rocks Amphitheater, Colorado
+       </p>
+       <p>
+        26.11 - The Forum, Los Angeles
+       </p>
+      </div>
+      <div>
+       <p class="font-bold mb-1">
+        ALL ALBUMS
+       </p>
+       <p>
+        Acoustic Life, Waterloo NY
+       </p>
+       <p>
+        Broken - Bottles and Bad Decisions
+       </p>
+       <p>
+        Rain Time Showers
+       </p>
+       <p>
+        The Forum, Los Angeles
+       </p>
+      </div>
+      <div class="flex items-center">
+       <button class="bg-black text-green-400 text-xs sm:text-sm font-bold px-6 py-2 rounded-md hover:bg-green-400 hover:text-black transition">
+        GET TICKET
+       </button>
+      </div>
+     </div>
+    </div>
+    <div class="w-1/3 max-w-[200px] relative">
+     <img alt="Female singer holding microphone on stage with warm spotlight" class="rounded-xl rotate-6 shadow-lg" height="320" src="https://storage.googleapis.com/a1aa/image/94de6eaa-5709-45e9-1ce6-d1c346b65afa.jpg" width="200"/>
+    </div>
+   </div>
+  </section>
+  <!-- Seating plan and ticket boxes -->
+  <section class="max-w-screen-xl mx-auto px-4 mb-12 flex flex-col md:flex-row justify-center gap-8">
+   <div class="bg-gradient-to-br from-[#000a1f] to-[#001a3d] rounded-md p-6 max-w-[600px] text-[9px] sm:text-xs text-gray-300 font-mono">
+    <h2 class="text-center text-white tracking-widest mb-4">
+     SEATING PLAN
+    </h2>
+    <img alt="Seating plan diagram with color-coded sections: Purple A, Green A, Blue A Festival, Blue B Festival, Green B, Purple B, FOH, Yellow Seating, Pink Smart Pit, and price legend" class="mx-auto" height="350" src="https://storage.googleapis.com/a1aa/image/3912a210-2902-4a01-4c15-c7f69e18a8f6.jpg" width="600"/>
+    <p class="mt-4 text-[7px] sm:text-[8px] text-center leading-tight">
+     BLUE is festival. YELLOW, GREEN, PINK, and PURPLE are numbered seating.
+     <br/>
+     <span class="italic">
+      *VIP Packages can ONLY be purchased on MCT. Tickets are available at
+          mctwebsite.com and ticket.com.
+      <br/>
+      Ticket price includes tax, excludes ticket processing fee &amp; age
+          restrictions.
+      <br/>
+      Seat map is not drawn to scale and subject to change without prior
+          notice.
+      <br/>
+      For more information, please refer to:
+      <a class="underline text-green-400" href="https://mctwebsite.com" target="_blank">
+       https://mctwebsite.com
+      </a>
+     </span>
+    </p>
+    <div class="flex justify-center mt-3 space-x-2 text-[8px] sm:text-[9px]">
+     <div class="flex items-center space-x-1">
+      <div class="w-4 h-4 bg-blue-600 border border-gray-400">
+      </div>
+      <span>
+       Rp 2,600,000,-
+      </span>
+     </div>
+     <div class="flex items-center space-x-1">
+      <div class="w-4 h-4 bg-yellow-400 border border-gray-400">
+      </div>
+      <span>
+       Rp 2,400,000,-
+      </span>
+     </div>
+     <div class="flex items-center space-x-1">
+      <div class="w-4 h-4 bg-green-600 border border-gray-400">
+      </div>
+      <span>
+       Rp 2,200,000,-
+      </span>
+     </div>
+     <div class="flex items-center space-x-1">
+      <div class="w-4 h-4 bg-pink-600 border border-gray-400">
+      </div>
+      <span>
+       Rp 1,700,000,-
+      </span>
+     </div>
+     <div class="flex items-center space-x-1">
+      <div class="w-4 h-4 bg-purple-600 border border-gray-400">
+      </div>
+      <span>
+       Rp 1,200,000,-
+      </span>
+     </div>
+    </div>
+   </div>
+   <div class="flex flex-col gap-8">
+    <!-- Pink Ticket Box -->
+    <div class="bg-[#0a0a1a] rounded-md p-4 w-[280px] text-xs font-mono text-gray-300">
+     <select class="bg-[#0a0a1a] border border-gray-600 rounded-sm text-xs text-gray-300 mb-3 w-full px-2 py-1">
+      <option>
+       Pink Ticket
+      </option>
+     </select>
+     <div class="bg-[#1a1a2a] rounded-md p-3 text-center mb-2">
+      <div class="bg-[#2a2a3a] text-gray-300 text-xs py-1 rounded-sm mb-1">
+       STAGE
+      </div>
+      <div class="bg-pink-600 text-black font-bold py-1 rounded-sm">
+       PINK
+      </div>
+     </div>
+     <div class="flex items-center space-x-2 text-[9px]">
+      <div>
+       Available
+      </div>
+      <div class="grid grid-cols-5 gap-1">
+       <div class="w-3 h-3 bg-pink-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-pink-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-pink-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-pink-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-pink-600 rounded-sm">
+       </div>
+      </div>
+     </div>
+     <div class="flex items-center space-x-2 text-[9px] mt-1">
+      <div>
+       Booked
+      </div>
+      <div class="grid grid-cols-5 gap-1">
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- Purple Ticket Box -->
+    <div class="bg-[#0a0a1a] rounded-md p-4 w-[280px] text-xs font-mono text-gray-300">
+     <select class="bg-[#0a0a1a] border border-gray-600 rounded-sm text-xs text-gray-300 mb-3 w-full px-2 py-1">
+      <option>
+       Purple Ticket
+      </option>
+     </select>
+     <div class="bg-[#1a1a2a] rounded-md p-3 text-center mb-2">
+      <div class="bg-[#2a2a3a] text-gray-300 text-xs py-1 rounded-sm mb-1">
+       STAGE
+      </div>
+      <div class="bg-purple-600 text-black font-bold py-1 rounded-sm">
+       PURPLE
+      </div>
+     </div>
+     <div class="flex items-center space-x-2 text-[9px]">
+      <div>
+       Available
+      </div>
+      <div class="grid grid-cols-5 gap-1">
+       <div class="w-3 h-3 bg-purple-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-purple-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-purple-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-purple-600 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-purple-600 rounded-sm">
+       </div>
+      </div>
+     </div>
+     <div class="flex items-center space-x-2 text-[9px] mt-1">
+      <div>
+       Booked
+      </div>
+      <div class="grid grid-cols-5 gap-1">
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+       <div class="w-3 h-3 bg-gray-700 rounded-sm">
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Marchendise section -->
+  <section class="max-w-screen-xl mx-auto px-4 mb-12">
+   <h2 class="text-center text-white font-extrabold text-lg mb-6 tracking-widest" style="font-family: 'Orbitron', sans-serif;">
+    MARCHENDISE
+   </h2>
+   <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-white font-mono text-xs sm:text-sm">
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a person holding a totebag with a flower keychain" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/e87492f2-83bb-4156-9c7c-7634f202fe02.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      TOTEBAG
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a hoodie with graphic design on front" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/80a00bc4-abf5-4df6-6871-decec9b11efb.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      HOODIE
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a mug with logo on table" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/5b4481ac-6d86-4349-1fdf-0f703f75dee3.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      MUG
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a person wearing earphones" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/6927e1aa-d93d-4dd7-22f8-1058a141f0ee.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      EARPHONE
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a person wearing a black hat with cross design" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/987b3210-046d-48ac-3b14-8cdee53a6b55.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      HAT
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of two flower-shaped pillows on a table" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/34b3e264-ae26-40e9-73a3-550588ca7ef6.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      PILLOW
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+    <div class="relative group overflow-hidden rounded-md">
+     <img alt="Black and white photo of a person wearing a white t-shirt with graphic design on front and back" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition" height="300" src="https://storage.googleapis.com/a1aa/image/ec63ddda-5efd-4eed-ca85-e7700c8603af.jpg" width="300"/>
+     <div class="absolute bottom-2 left-2 font-extrabold text-white text-sm sm:text-base">
+      T-SHIRT
+     </div>
+     <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-t from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-black to-transparent">
+     </div>
+     <div class="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-black to-transparent">
+     </div>
+     <div class="absolute top-0 left-0 w-full h-6 bg-gradient-to-b from-black to-transparent">
+     </div>
+     <div class="absolute top-0 right-0 rotate-90 origin-top-right text-xs font-extrabold text-white tracking-widest" style="writing-mode: vertical-rl;">
+      CATEGORY
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Gallery section -->
+  <section class="max-w-screen-xl mx-auto px-4 mb-12">
+   <h2 class="text-center text-white font-extrabold text-lg mb-6 tracking-widest" style="font-family: 'Orbitron', sans-serif;">
+    GALLERY
+   </h2>
+   <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+    <img alt="Black and white photo of concert crowd with bright stage lights" class="w-full h-full object-cover grayscale" height="400" src="https://storage.googleapis.com/a1aa/image/d5e5c95e-3d62-4dff-379e-cf88103de784.jpg" width="400"/>
+    <img alt="Black and white photo of performer silhouette with purple laser lights and dancers" class="w-full h-full object-cover grayscale" height="400" src="https://storage.googleapis.com/a1aa/image/0f801d90-40fe-456d-3f9c-e3069e13cde4.jpg" width="400"/>
+    <img alt="Black and white photo of concert crowd with laser lights from wide angle" class="w-full h-full object-cover grayscale" height="200" src="https://storage.googleapis.com/a1aa/image/db6ce7d0-649e-4c9a-da81-4980758e66ec.jpg" width="400"/>
+    <img alt="Black and white photo of performer on stage with spotlight" class="w-full h-full object-cover grayscale" height="200" src="https://storage.googleapis.com/a1aa/image/2c66450c-3a9d-4a42-9e76-db52b8445bdc.jpg" width="400"/>
+    <img alt="Black and white photo of concert crowd from back view" class="w-full h-full object-cover grayscale" height="200" src="https://storage.googleapis.com/a1aa/image/8759c02f-c328-4cb4-bb68-1fac7bb99770.jpg" width="400"/>
+    <img alt="Black and white panoramic photo of concert crowd with lights" class="w-full h-full object-cover grayscale" height="200" src="https://storage.googleapis.com/a1aa/image/e5ae7646-2a60-4add-ba65-6433de44f936.jpg" width="400"/>
+    <img alt="Black and white photo of stage spotlight beam shining down" class="w-full h-full object-cover grayscale" height="200" src="https://storage.googleapis.com/a1aa/image/a902b60c-b39c-4c57-ad22-51443e7d788b.jpg" width="400"/>
+   </div>
+  </section>
+  <!-- FAQ section -->
+  <section class="max-w-screen-xl mx-auto px-4 mb-12">
+   <h2 class="text-center text-white font-extrabold text-sm sm:text-base mb-6 tracking-widest" style="font-family: 'Orbitron', sans-serif;">
+    FREQUENTLY ASKED QUESTIONS
+   </h2>
+   <div class="space-y-4 text-[9px] sm:text-xs font-mono text-gray-300">
+    <div class="border border-gray-600 p-3">
+     <p class="font-bold mb-1">
+      How do I purchase tickets for a concert?
+     </p>
+     <p>
+      To purchase tickets for a concert, you can visit the website of the
+          concert tickets provider, search for the desired concert, select the
+          tickets you want, and make payment.
+     </p>
+    </div>
+    <div class="border border-gray-600 p-3">
+     <p class="font-bold mb-1">
+      What payment methods are accepted?
+     </p>
+     <p>
+      The payment methods that are accepted can vary depending on the concert
+          ticket provider. However, commonly accepted payment methods include
+          credit cards, debit cards, and online payment systems such as PayPal.
+     </p>
+    </div>
+    <div class="border border-gray-600 p-3">
+     <p class="font-bold mb-1">
+      How will I receive my tickets after purchasing them?
+     </p>
+     <p>
+      After you purchase your tickets, they will typically be delivered to you
+          electronically via email, or you can print them out at home. In some
+          cases, physical tickets may be sent to you via mail.
+     </p>
+    </div>
+    <div class="border border-gray-600 p-3">
+     <p class="font-bold mb-1">
+      Can I transfer my tickets to someone else?
+     </p>
+     <p>
+      The policy on transferring tickets can vary depending on the concert
+          ticket provider and the specific concert. In some cases, tickets may be
+          transferable, while in other cases they may not be. It is important to
+          read the terms and conditions carefully before purchasing your tickets.
+     </p>
+    </div>
+   </div>
+  </section>
+
+  <!-- Bottom hero image -->
+  <section class="max-w-screen-xl mx-auto px-4 mb-6">
+   <div class="relative rounded-md overflow-hidden">
+    <img alt="Black and white wide view of concert crowd with stage and lights" class="w-full h-auto object-cover brightness-75" height="300" src="https://storage.googleapis.com/a1aa/image/ec39fe59-087e-4d0a-48a7-0a0e98149f06.jpg" width="1920"/>
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
+     <div class="border border-gray-400 rounded-full px-6 py-1 text-xs tracking-widest mb-2 text-gray-300 font-orbitron" style="font-family: 'Orbitron', sans-serif;">
+      2025 - 2026
+     </div>
+     <h2 class="orbitron text-4xl sm:text-6xl font-extrabold leading-[1.1] text-gray-300 drop-shadow-[0_0_6px_rgba(255,255,255,0.7)]" style="font-family: 'Orbitron', sans-serif;">
+      SOUND OF
+      <br/>
+      FREEDOM
+     </h2>
+     <p class="tracking-widest text-sm sm:text-base mt-2 mb-6 text-gray-300">
+      WORLD TOUR
+     </p>
+     <button class="bg-black text-green-400 text-xs sm:text-sm font-bold px-6 py-2 rounded-md hover:bg-green-400 hover:text-black transition">
+      GET TICKET
+     </button>
+    </div>
+   </div>
+  </section>
+     <!-- Footer -->
+  <footer class="max-w-screen-xl mx-auto px-4 pb-6 text-[8px] sm:text-[9px] text-gray-400 font-mono flex flex-col sm:flex-row justify-between items-center gap-4">
+   <div>
+    ©2025Schar, All Right Reserved
+   </div>
+   <div class="flex space-x-4">
+    <a aria-label="Privacy Policy" class="hover:text-white" href="#">
+     Privacy Policy
+    </a>
+    <a aria-label="Terms of Service" class="hover:text-white" href="#">
+     Terms of Service
+    </a>
+    <a aria-label="Cookie Policy" class="hover:text-white" href="#">
+     Cookie Policy
+    </a>
+   </div>
+   <div class="flex space-x-4 text-gray-400 text-lg">
+    <a aria-label="Facebook" class="hover:text-white" href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a aria-label="Instagram" class="hover:text-white" href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a aria-label="Twitter" class="hover:text-white" href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+   </div>
+  </footer>
+ </body>
+</html>
